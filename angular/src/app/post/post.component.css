@@ -8,6 +8,8 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-start;
+    width: 55%;
+    position: fixed;
 }
 
 img {
@@ -17,10 +19,9 @@ img {
 }
 
 p {
-    width: 85%;
     overflow: hidden;
-    white-space: nowrap;
     text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .title {}
