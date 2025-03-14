@@ -1,0 +1,28 @@
+.body {
+    margin: 15px;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: #EEEEEE;
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+img {
+    margin: 10px;
+    height: 75px;
+    width: auto;
+}
+
+p {
+    width: 85%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.title {}
+
+.blurb {}
