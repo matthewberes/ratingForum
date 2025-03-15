@@ -42,16 +42,20 @@ p {
     width: 3rem;
     flex-basis: 18%;
     border-right: 1px solid;
+    box-sizing: border-box;
 }
 
 .main {
     flex-basis: 56.9%;
     min-height: 83vh;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .margin-right {
     width: 3rem;
     flex-basis: 25%;
+    box-sizing: border-box;
 }
 
 .footer {
