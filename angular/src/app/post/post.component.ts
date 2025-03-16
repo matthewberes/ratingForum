@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule, NgIf } from '@angular/common';
 
 @Component({
@@ -9,5 +9,6 @@ import { CommonModule, NgIf } from '@angular/common';
   styleUrl: './post.component.css'
 })
 export class PostComponent {
-  image: boolean = false;
+  @Input() image: boolean;
+
 }
