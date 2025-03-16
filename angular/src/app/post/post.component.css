@@ -39,3 +39,7 @@ p {
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+
+.noImage {
+    margin-left: 10px;
+}

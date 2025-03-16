@@ -1,9 +1,9 @@
 <div class="body">
-    <div>
+    <div *ngIf="image">
         <img src="../assets/ph.png">
     </div>
     <div class="textbox">
-        <p class="title">
+        <p [ngClass]=" image ? 'title' : 'title noImage'">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
             industry's standard
             dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
@@ -14,7 +14,8 @@
             passages, and more
             recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
-        <p class="blurb">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+        <p [ngClass]=" image ? 'blurb' : 'blurb noImage'">Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been
             the
             industry's standard
             dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
