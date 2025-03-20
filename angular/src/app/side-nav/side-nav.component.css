@@ -1,0 +1,26 @@
+.sideNav {
+    width: 15rem;
+}
+
+.grid {
+    display: grid;
+    column-gap: 20px;
+    justify-content: flex-start;
+
+}
+
+.row {
+    display: contents;
+    flex-basis: auto;
+    vertical-align: middle;
+}
+
+.row:hover {
+    color: #3b444b;
+    cursor: pointer;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+}
